@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+/* Base table structure */
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+/* Base border styling for all cells */
+th, td {
+    border: 1px solid #4a4a4a;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 1. Header Row (Part, XS, S, M, L, XL) */
+thead tr {
+    background-color: #c2524a; /* Medium terracotta red */
+    color: white;
+}
+
+/* 2. Waist Row (Second Row) */
+tbody tr:nth-child(1) {
+    background-color: #e49a94; /* Light pinkish-red */
+    color: #1a1a1a;
+}
+
+/* 3. Chest Row (Third Row) */
+tbody tr:nth-child(2) {
+    background-color: #f1cfcc; /* Soft pale rose pink */
+    color: #1a1a1a;
+}
+
+/* 4. Sleeve Row (Fourth Row) */
+tbody tr:nth-child(3) {
+    background-color: #d9dadb; /* Light neutral grey */
+    color: #1a1a1a;
+}
+
+/* Keep the first label column text aligned to the left */
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+
